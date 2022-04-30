@@ -33,3 +33,27 @@ Managing contractors and suppliers for scopes of work.
 
 
 CubeSatNB Project
+My first COOP internship was realized with the CubeSatNB project. CubeSatNB was formed in partnership with UNB and UdeM (l'Université de Moncton) to send a 1U sized satellite into space. The satellite will measure data on the planet's ionosphere. For more information consult the CubeSatNB information page.
+
+For the intnership, I was asked to participate in the software development of the communication software, where the satellite would communicate with the ground station. As limited as this internship was, I was introduced to C programming as well as git and linux Ubuntu OS.
+
+
+
+AEC (Atlantic Engineering Competition)
+The AEC is a student engineering competition hosted in one of the multiple universities located in Atlantic Canada. This year, the AEC was hosted at l'UdeM where the competition was, unfortunatly, hosted virtually.
+
+I acted as programming director for the competition. I was asked to invent a programming question with the help of Bell (competition sponsor) to be solved using engineering and programming skills. More information on the general and programming competition can be found on my Github's AEC repository.
+
+
+
+Faculty of Engineering Student Council
+This year, I've been actively a member of l'UdeM's student engineering council. While at meetings we would discuss and debate on the student council's constitution, student activities as well as other commitee updates.
+
+Also, in the month of March, I was involved in the banquet commitee where I helped with planning the event and settling the banquet budget with professors and other team members.
+
+
+
+Dynamium
+To further my skills in embedded software development, I will be working alongside a faculty professor on his project called Dynamium. Dynamium is a formed from a team of professors looking to optimise a robotic arms' path using dynamic mechanical models. For this project, I will be working on developing low-level commands on the robot's arm.
+
+Dynamium's website
