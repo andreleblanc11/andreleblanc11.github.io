@@ -1,0 +1,35 @@
+IARC:
+For my third and fourth internship, I acted as a research engineer with the ACRI. My 	task assigned consisted primarly in designing a system able to control an ablation zone 	   with microwaves with the given constraints. Tests were realized on beef liver to mimic 	human organs. The goal from these tests was to study the effects of combined chemical and thermal ablation, to find the optimal conditions to control the ablation zone. With this data, we would be able to design automated impedance adapted ablation rods for     cancer tumor ablations. 
+	
+For this internship, I was able to further develop the skills below:
+Embedded software development with Python, C# and Excel ;
+Working with PySimpleGUI, OpenPyXl and Pyvisa ;
+Famarialisation with dielectric properties and microwave generators ;
+Documenting test results with flowcharts and test resumes.
+
+
+
+Greenhouse IoT EOT Project:
+For my End Of Term (EOT) project, our group decided to implement an IoT network in a greenhouse setting. The networking protocol utilized was that of OpenThread. We've opted to use the MQTT communication protocol between the web server and the network border router.
+
+More information on OpenThread and Project Zephyr.
+	
+For this project, I was able to further develop the skills below:
+Embedded software development in C ;
+Utilizing SSH with Raspberry Pi's ;
+Building websites with HTML, CSS and Javascript ;
+Famaliralisation with Internet of Things, OpenThread, building websites and low-energy networking protocols (Bluetooth, Zigbee, etc.);
+
+
+
+Michelin North America Inc.:
+I've worked at Michelin for my second COOP internship. While there, I was assigned 5 different engineering projects. These projects had to be completed before the end of the term. While challenging, I was able to accomplish all of these projects while simutaneously acuiring the following skills.
+
+Solving non-trivial industrial engineering problems ;
+Grafcet, Ladder logic and PanelView UI programming ;
+Familiarisation with ethernet and DH+ (DataHighway+) protocols and the industrial work environment ;
+Managing contractors and suppliers for scopes of work.
+
+
+
+CubeSatNB Project

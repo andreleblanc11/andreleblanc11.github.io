@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2022 André LeBlanc
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -55,25 +55,25 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #181A1B;
 }
 hr.star-light:after {
-  background-color: #2acaea;
+  background-color: #1194AE;
   color: white;
 }
 hr.star-primary {
-  border-color: black;
+  border-color: #8C8273;
 }
 hr.star-primary:after {
-  background-color: white;
-  color: black;
+  background-color: #181A1B;
+  color: #C8C3BC;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #2acaea;
+  background: #1194AE;
   color: white;
 }
 header .container {
@@ -134,7 +134,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #2acaea;
+  color: #1194AE;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -143,13 +143,20 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #2acaea;
+  background: #1194AE;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #2acaea;
+  background: #1194AE;
+}
+.navbar-custom .navbar-nav .language{
+  margin-top: 12px;
+}
+.elementToFadeInAndOut {
+  opacity: 1;
+  animation: fade 2s linear;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -159,9 +166,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #2acaea;
+  background-color: #1194AE;
   color: white;
-  border-color: #2acaea;
+  border-color: #1194AE;
+}
+.navbar-custom .img{
+  float: left;
+  margin-right: 10px;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -183,6 +194,11 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+@media (min-width: 576px) {
+  .navbar-custom .navbar-nav .language{
+    margin-left:12px;
+  }
+}
 section {
   padding: 100px 0;
 }
@@ -191,7 +207,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #2acaea;
+  background: #1194AE;
   color: white;
 }
 @media (max-width: 767px) {
@@ -202,6 +218,9 @@ section.success {
     padding-top: 75px;
   }
 }
+#portfolio {
+  background: #181A1B;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -209,11 +228,11 @@ section.success {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: #2acaea;
+  background: #1194AE;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -226,7 +245,7 @@ section.success {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 20px;
   font-size: 20px;
@@ -242,12 +261,53 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
+#portfolio .portfolio-item .portfolio-link .img-alt1{
+  margin-right: 160px;
+  padding-left: 80px;
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+#portfolio .portfolio-item .portfolio-link .img-alt2{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#portfolio .portfolio-item .portfolio-link .img-alt3{
+  padding-left: 65px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+#portfolio .portfolio-item .portfolio-link .img-alt5{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 #portfolio * {
   z-index: 2;
+}
+#portfolio h2{
+  color:#C8C3BC;
+  padding-top: 50px;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+  }
+  #portfolio .portfolio-item .portfolio-link .img-alt1{
+    padding-right: 65px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+  #portfolio .portfolio-item .portfolio-link .img-alt2{
+    padding-top: 74px;
+    padding-bottom: 74px;
+  }
+  #portfolio .portfolio-item .portfolio-link .img-alt3{
+    padding-right: 65px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+  #portfolio .portfolio-item .portfolio-link .img-alt4{
+    padding-top: 65px;
+    padding-bottom: 65px;
   }
 }
 .floating-label-form-group {
@@ -294,7 +354,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #2acaea;
+  color: #1194AE;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -328,7 +388,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #2acaea;
+  color: #1194AE;
   background: white;
   border: solid 2px white;
 }
@@ -376,8 +436,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #2acaea;
-  border-color: #2acaea;
+  background-color: #1194AE;
+  border-color: #1194AE;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -409,11 +469,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #2acaea;
-  border-color: #2acaea;
+  background-color: #1194AE;
+  border-color: #1194AE;
 }
 .btn-success .badge {
-  color: #2acaea;
+  color: #1194AE;
   background-color: white;
 }
 .btn-social {
@@ -452,6 +512,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
+  background:#181A1B;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
@@ -460,6 +521,8 @@ fieldset[disabled] .btn-success.active {
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
+  color:#C8C3BC;
+  padding-top: 50px;
   margin: 0;
   font-size: 3em;
 }
@@ -468,6 +531,15 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
+}
+.portfolio-modal .modal-content p{
+  text-align: justify;
+  color: #C8C3BC;
+}
+.portfolio-modal .modal-content li{
+  text-align: left;
+  font-size: 1.25em;
+  color: #C8C3BC;
 }
 .portfolio-modal .close-modal {
   position: absolute;

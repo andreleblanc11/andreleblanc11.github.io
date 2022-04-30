@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 
@@ -18,52 +18,68 @@
     <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Navigator Tab Icon -->
-    <link rel="icon" href="img/Test.png">
+    <link rel="icon" href="img/Logo.png">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
+    <!-- Navigation English-->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header-img">
+                <img class="img-responsive img" src="img/Logo1.png" href="#page-top"  alt="" width="50" height="50">
+            </div>
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top" >André LeBlanc</a>
+                <a class="navbar-brand" href="#page-top" >André LeBlanc</a> 
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
+
+                    <!--English Navigation Bar-->
+                    <li class="hidden" lang="en">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll" lang="en">
                         <a href="#portfolio">Experience</a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll" lang="en">
                         <a href="#about">About</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">Goals</a>
+                    <li class="page-scroll" lang="en">
+                        <a href="#">Contact</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">Contact</a>
+
+                    <!--French Navigation Bar-->
+                    <li class="hidden" lang="fr">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll" lang="fr">
+                        <a href="#portfolio">Expérience</a>
+                    </li>
+                    <li class="page-scroll" lang="fr">
+                        <a href="#about">À propos</a>
+                    </li>
+                    <li class="page-scroll" lang="fr">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="language"> 
+                    <!-- Set up for translation from english to french and vice-versa-->
+                        <select id="lang-switch">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                        </select>
                     </li>
                 </ul>
             </div>
@@ -74,22 +90,14 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container" lang="en">
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="" width="540" height="540">
                     <div class="intro-text">
-                        <span class="name">Hi! I'm André LeBlanc <br/>I'm a recent graduate in electrical engineering at
+                        <span class="name">Welcome to my website! <br/>I'm André LeBlanc, a recent graduate in electrical engineering at
                             <a href="https://www.umoncton.ca/umcm-ingenierie/" target="_blank" rel="noopener noreferrer">
-                                l'Université de moncton</a></span>
-                        <hr class="star-light">
-                        <span class="skills"><b>Brief Description:</b><br/> 
-                            <ul type="full circle">
-                            <li>Interested in software development and embedded software development.</li>
-                            <li>Love to learn and discover. Continuously trying to self-improve.</li>
-                            <li><a href="https://github.com/andreleblanc11" target="_blank" rel="noopener noreferrer">
-                                GitHub Repository</a></li>
-                            </ul>
+                                l'Université de moncton.</a></span>
                             </span>
                     </div>
                 </div>
@@ -98,73 +106,107 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="portfolio" lang="en">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Experience</h2>
+                    <h2>Professional Experience</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/IARC.png" class="img-responsive img-alt1" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/UdeM.png" class="img-responsive img-alt4" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/Michelin.png" class="img-responsive img-alt2" height="650" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/CubeSat.png" class="img-responsive img-alt3" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center row-commitees">
+                    <h2>Commitees</h2>
+                    <hr class="star-primary">
+                </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/AEC2022.png" class="img-responsive img-alt3" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/AEEGUM.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center row-commitees">
+                    <h2>Current projects</h2>
+                    <hr class="star-primary">
+                </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Dynamium.svg" class="img-responsive img-alt5" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Car.png" class="img-responsive img-alt4" alt="">
                     </a>
                 </div>
             </div>
@@ -172,7 +214,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="success" id="about">
+    <section class="success" id="about" lang="en">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -199,32 +241,18 @@
     <!-- Contact Section -->
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" lang="en">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Your hostel address line 1
-                            <br>Your hostel address line 2</p>
-                    </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://github.com/andreleblanc11/" class="btn-social btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="https://www.linkedin.com/in/andr%C3%A9-leblanc-093b55139/" class="btn-social btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -262,21 +290,28 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Atlantic Cancer Research Institute</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/IARC_Office.jpeg" class="img-responsive img-centered" alt="">
+                            <p>For my third and fourth internship, I acted as a research engineer with the ACRI. My 	task assigned consisted primarly in designing a system able to control an ablation zone 	   with microwaves with the given constraints. Tests were realized on beef liver to mimic 	human organs. The goal from these tests was to study the effects of combined chemical and thermal ablation, to find the optimal conditions to control the ablation zone. With this data, we would be able to design automated impedance adapted ablation rods for cancer tumor ablations. </p>
+                            <p><br>For this internship, I was able to further develop the skills below:</p>
+                                <ul type="full circle">
+                                    <li>Embedded software development with Python, C# and Excel ; </li>
+                                    <li>Working with PySimpleGUI, OpenPyXl and Pyvisa ;</li>
+                                    <li>Familiarisation with dielectric properties and microwave generators ;</li>                            
+                                    <li>Documenting test results with flowcharts and test resumes.</li>
+                                </ul>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Website:
+                                    <strong><a href="https://atlanticcancer.ca/index.php/en/" target="_blank" rel="noopener noreferrer">ACRI</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <li>Duration:
+                                    <strong><span><b>January 2021 - August 2021</b></span>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Location:
+                                    <strong><span><b>Moncton, NB</b></span>
                                     </strong>
                                 </li>
                             </ul>
@@ -299,21 +334,22 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Greenhouse IoT - EOT Project</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/Greenhouse.png" class="img-responsive img-centered" alt="">
+                            <p>For my End Of Term (EOT) project, our group decided to implement an IoT network in a greenhouse setting. The networking protocol utilized was that of OpenThread. We've also opted to use the MQTT communication protocol between the web server and the network border router.</p>
+                            <p><br>More information on
+                            <a href="https://www.openthread.io" target="_blank" rel="noopener noreferrer">OpenThread</a> and 
+                            <a href="https://www.zephyrproject.org/" target="_blank" rel="noopener noreferrer">Project Zephyr</a></p>
+                            <p><br>For this internship, I was able to further develop the skills below:</p>
+                            <ul type="full circle">
+                                <li>Embedded software development in C ;</li>
+                                <li>Utilizing SSH with Raspberry Pi's ;</li>                            
+                                <li>Building website UIs with HTML, CSS, Bootstrap and Javascript ;</li>
+                                <li>Familiarisation with Internet of Things, OpenThread, building websites and low-energy networking protocols (Bluetooth, Zigbee, etc.).</li>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Duration:
+                                    <strong><span><b>January 2022 - April 2022</b></span>
                                     </strong>
                                 </li>
                             </ul>
@@ -336,21 +372,23 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Michelin North America Inc.</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/Michelin_Pictou.jpeg" class="img-responsive img-centered" alt="">
+                            <p>I've worked at Michelin for my second COOP internship. While there, I was assigned 5 different engineering projects. These projects had to be completed before the end of the term. While challenging, I was able to accomplish all of these projects while simutaneously acuiring the following skills.</p>
+                            <ul type="full circle">
+                                <br>
+                                <li>Solving non-trivial industrial engineering problems ;</li>
+                                <li>Grafcet, Ladder logic and PanelView UI programming ;</li>                            
+                                <li>Familiarisation with ethernet and DH+ (DataHighway+) protocols and the industrial work environment ;</li>
+                                <li>Managing contractors and suppliers for scopes of work.</li>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Duration:
+                                    <strong><span><b>May 2020 - August 2020</b></span>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Location:
+                                    <strong><span><b>Pictou, NS</b></span>
                                     </strong>
                                 </li>
                             </ul>
@@ -373,21 +411,19 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>CubeSatNB Project</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/CubeSat_Work.png" class="img-responsive img-centered" alt="">
+                            <p>My first COOP internship was realized with the CubeSatNB project. CubeSatNB was formed in partnership with UNB and UdeM (l'Université de Moncton) to send a 2U sized satellite into space. The satellite will measure data on the planet's ionosphere. For more information, consult the 
+                                <a href="https://www.unb.ca/initiatives/cubesat/" target="_blank" rel="noopener noreferrer">CubeSatNB information page.</a></p>
+                            <p><br>For the intnership, I was asked to participate in the software development of the communication software, where the satellite would communicate with the ground station. With limited experience, I was introduced to C programming as well as git and linux Ubuntu OS for my first software development experience.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Duration:
+                                    <strong><span><b>May 2019 - August 2019</b></span>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Location:
+                                    <strong><span><b>Moncton, NB</b></span>
                                     </strong>
                                 </li>
                             </ul>
@@ -410,21 +446,19 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Atlantic Engineering Competition (AEC)</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/AEC_Photo.png" class="img-responsive img-centered" alt="">
+                            <p>The AEC is a student engineering competition hosted in one of the multiple universities located in Atlantic Canada. This year, the AEC was hosted at l'UdeM where the competition was, unfortunatly, hosted virtually.</p>
+                            <p><br>I acted as programming director for the competition. I was asked to invent a programming question with the help of Bell (competition sponsor) to be solved using engineering and programming skills. More information on the general and programming competition can be found on
+                                <a href="https://github.com/AEC2022Programming/Competition-Package" target="_blank" rel="noopener noreferrer">the programming competition's GitHub repository,</a></p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Duration:
+                                    <strong><span><b>January 2022</b></span>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Location:
+                                    <strong><span><b>Moncton, NB</b></span>
                                     </strong>
                                 </li>
                             </ul>
@@ -447,10 +481,65 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Faculty of Engineering Student Council</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/AEEGUM_Photo.png" class="img-responsive img-centered" alt="">
+                            <p>This year, I've been actively a member of l'UdeM's student engineering council. While at meetings we would discuss and debate on the student council's constitution, student activities as well as other commitee updates.</p>
+                            <p><br>Also, in the month of March, I was involved in the banquet commitee where I helped with planning the event and settling the banquet budget with professors and other team members.</p>
+                            <ul class="list-inline item-details">
+                                <li>Duration:
+                                    <strong><span><b>September 2021 - April 2022</b></span>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Dynamium</h2>
+                            <hr class="star-primary">
+                            <img src="" class="img-responsive img-centered" alt="">
+                            <p>To further my skills in embedded software development, I will be working alongside a faculty professor on his project called Dynamium. Dynamium is formed from a team of professors looking to optimise a robotic arm's path using dynamic mechanical models. For this project, I will be working on developing low-level commands on the robot's arm.</p>
+                            <p><br>For more information, consult <a href="https://www.dynamium.ca/" target="_blank" rel="noopener noreferrer">Dynamium's website<br></a></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Automobile IoT Data Capture</h2>
+                            <hr class="star-primary">
+                            <img src="" class="img-responsive img-centered" alt="">
+                            <p>Coming soon!</p><br>
+                                <!--
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Yourname</a>
@@ -465,6 +554,7 @@
                                     </strong>
                                 </li>
                             </ul>
+                                !-->
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -472,6 +562,176 @@
             </div>
         </div>
     </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container" lang="fr">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="" width="540" height="540">
+                    <div class="intro-text">
+                        <span class="name">Bienvenue à mon siteweb ! <br/>I'm André LeBlanc, a recent graduate in electrical engineering at
+                            <a href="https://www.umoncton.ca/umcm-ingenierie/" target="_blank" rel="noopener noreferrer">
+                                l'Université de moncton</a></span>
+                        <hr class="star-light">
+                        <span class="skills"><b>Brief Description:</b><br/> 
+                            <ul type="full circle">
+                            <li>Interested in embedded software development and software development.</li>
+                            <li>Love to learn. Continuously self-improving.</li>
+                            <li>Located in the 
+                                <a href="https://www.google.com/maps/place/Moncton,+NB/@46.1132336,-64.87064,12z/data=!3m1!4b1!4m5!3m4!1s0x4ca0b92918d41765:0xdc10a333a4e63c4!8m2!3d46.0878165!4d-64.7782313" target="_blank" rel="noopener noreferrer">
+                                Moncton</a> region.
+                            </li>                            
+                            </ul>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" lang="fr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Professional Experience</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/IARC.png" class="img-responsive img-alt1" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Greenhouse.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Michelin.png" class="img-responsive img-alt2" height="650" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/CubeSat.png" class="img-responsive img-alt3" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center row-commitees">
+                    <h2>Commitees</h2>
+                    <hr class="star-primary">
+                </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/AEC2022.png" class="img-responsive img-alt3" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/AEEGUM.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about" lang="fr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Write a paragraph about who you are, where you're from, etc.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Write a short paragraph about your hobbies and interests.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <!-- <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <!-- Footer -->
+    <footer class="text-center" lang="fr">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h3>Location</h3>
+                        <p>Your hostel address line 1
+                        <br>Your hostel address line 2</p>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/andreleblanc11/" class="btn-social btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/andr%C3%A9-leblanc-093b55139/" class="btn-social btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; André LeBlanc 2022
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -483,7 +743,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
+    <script src="js/freelancer.js"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+    $('[lang]').hide(); // hide all lang attributes on start.
+    $('[lang="en"]').show(); // show just English text initially
+    $('#lang-switch').change(function (event) { // put onchange event when user select option from select
+        var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
+        switch (lang) {
+            case 'en':
+                $('[lang]').hide();
+                $('[lang="en"]').show();
+            break;
+            case 'fr':
+                $('[lang]').hide();
+                $('[lang="fr"]').show();
+            break;
+            default:
+                $('[lang]').hide();
+                $('[lang="en"]').show();
+            }
+    });
+    </script>
+
+
 
 </body>
 
