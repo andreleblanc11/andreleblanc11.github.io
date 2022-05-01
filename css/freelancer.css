@@ -54,17 +54,17 @@ hr.star-primary:after {
   font-size: 2em;
   padding: 0 0.25em;
 }
-hr.star-light {
+hr.star-primary {
   border-color: #181A1B;
 }
-hr.star-light:after {
+hr.star-primary:after {
   background-color: #1194AE;
   color: white;
 }
-hr.star-primary {
+hr.star-light {
   border-color: #8C8273;
 }
-hr.star-primary:after {
+hr.star-light:after {
   background-color: #181A1B;
   color: #C8C3BC;
 }
@@ -207,8 +207,21 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #1194AE;
+  background: #181A1B;
   color: white;
+}
+section.success h2{
+  color:#C8C3BC;
+}
+section.success br{
+  margin-top: 50px;
+}
+section.success p{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+}
+.success-indent{
+  padding-left: 100px;
 }
 @media (max-width: 767px) {
   section {
@@ -217,9 +230,23 @@ section.success {
   section.first {
     padding-top: 75px;
   }
+  section.success p{
+    font-size: 1.5em;
+  }
+  .success-indent{
+    padding-left:0;
+  }
+}
+@media (max-width: 1200px) {
+  .success-indent{
+    padding-left:0;
+  }
+  section.success img{
+    text-align:center;
+  }
 }
 #portfolio {
-  background: #181A1B;
+  background: #1194AE;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -232,7 +259,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: #1194AE;
+  background: #181A1B;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -263,9 +290,9 @@ section.success {
 }
 #portfolio .portfolio-item .portfolio-link .img-alt1{
   margin-right: 160px;
-  padding-left: 80px;
-  padding-top: 144px;
-  padding-bottom: 144px;
+  padding-left: 65px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 #portfolio .portfolio-item .portfolio-link .img-alt2{
   padding-top: 100px;
@@ -280,11 +307,16 @@ section.success {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+#portfolio .portfolio-item .portfolio-link .img-alt6{
+  padding-left:70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 #portfolio * {
   z-index: 2;
 }
 #portfolio h2{
-  color:#C8C3BC;
+  color:white;
   padding-top: 50px;
 }
 @media (min-width: 767px) {
@@ -293,8 +325,8 @@ section.success {
   }
   #portfolio .portfolio-item .portfolio-link .img-alt1{
     padding-right: 65px;
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 149px;
+    padding-bottom: 148px;
   }
   #portfolio .portfolio-item .portfolio-link .img-alt2{
     padding-top: 74px;
@@ -302,12 +334,17 @@ section.success {
   }
   #portfolio .portfolio-item .portfolio-link .img-alt3{
     padding-right: 65px;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   #portfolio .portfolio-item .portfolio-link .img-alt4{
     padding-top: 65px;
     padding-bottom: 65px;
+  }
+  #portfolio .portfolio-item .portfolio-link .img-alt6{
+    padding-left:70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 .floating-label-form-group {
@@ -337,8 +374,8 @@ section.success {
   margin: 0;
   font-size: 0.85em;
   line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
+  /*vertical-align: middle;
+  vertical-align: baseline;*/
   opacity: 0;
   -webkit-transition: top 0.3s ease,opacity 0.3s ease;
   -moz-transition: top 0.3s ease,opacity 0.3s ease;
@@ -358,6 +395,22 @@ section.success {
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
+}
+section.books {
+  background: #181A1B;
+  color: white;
+}
+section.books h2{
+  color:#C8C3BC;
+}
+section.books .checked{
+    color: orange;
+}
+section.books .container{
+  padding-bottom: 50px;
+}
+section.books .fa-star-o{
+  color: orange;
 }
 footer {
   color: white;
