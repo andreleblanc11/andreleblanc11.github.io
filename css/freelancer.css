@@ -406,9 +406,6 @@ section.books h2{
 section.books .checked{
     color: orange;
 }
-section.books .container{
-  padding-bottom: 50px;
-}
 section.books .fa-star-o{
   color: orange;
 }
