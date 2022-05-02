@@ -268,6 +268,13 @@ section.success p{
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
+#portfolio .portfolio-item .portfolio-link span{
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  color: white;
+}
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
