@@ -1,0 +1,58 @@
+IARC:
+
+Pour mon troisième et mon quatrième stage, j'ai agis en tant qu'ingénieur de recherche avec l'IARC. Mes tâches assignées consistaient primordialement de la conception d'un système capable de contrôler une zone d'ablation à l'aide de micro-ondes avec des contraintes connexes. Des tests se sont réalisés sur des foies de boeuf afin de simuler des organes humains. Le but de ces tests étaient d'étudier les effets de l'ablation thermique et chimique afin de trouver les conditions optimaux pour contrôler la zone d'ablation, Avec ces données, on serait capable de concevoir une tige à impédance adaptée pour le traitement de tumeurs cancéreuses.
+
+Pour ce stage, j'étais capable de développer les compétences ci-bas:
+Développement de logiciel embarqué avec Python, C# et Excel ;
+Travailler avec PySimpleGUI, OpenPyXl et Pyvisa ;
+Familiarisation avec les propriétés diélectriques et les génératrices micro-ondes ;
+Documenter les résultats des tests avec des organigrammes et des documents résumés.
+
+
+
+PFE, l'application IoT dans une serre:
+Pour mon Projet de Fin d'Étude (PFE), notre groupe a décidé d'implémenter un réseau IoT (Internet des Objets) dans le contexte d'une serre. Le protocol du réseau utilisé fut celui d'OpenThread. On a choisi d'utiliser le protocole de communication MQTT entre le serveur web et le border router du réseau.
+
+Plus d'informations sur OpenThread et sur le Projet Zephyr.
+
+Pour ce projet, j'ai pu développé les compétences ci-bas:
+Programmation de logiciels embarqués en C ;
+L'utilisation de SSH avec un Raspberry Pi ;
+La construction d'un siteweb à l'aide de HTML, CSS et Javascript ;
+Familiarisation avec l'Internet des Objets, OpenThread, la construction d'un siteweb et les protocols de réseau à bas énergie (Bluetooth, Zigbee, etc.).
+
+
+
+Michelin North America Inc.:
+J'ai travaillé chez Michelin pour mon deuxième stage COOP. Lors de mon séjour, j'étais assigné 5 projets d'ingénieries. Ces projets devaient être complétés par la fin du stage. Même étant un défi, j'ai pu accomplir toutes les projets tout en accumulant les compétences suivantes:
+
+Résolution de problèmes industriels en génie ;
+Programmation en Grafcet, Ladder et IU PanelView ;
+Familiarisation avec les protocols Ethernet et DH+ ainsi que l'environnement de travail industriel ;
+Gérer des contracteurs et des fournisseurs pour des étendus de travails.
+
+
+Projet CubeSatNB:
+Mon premier stage COOP s'est réalisé avec le projet CubeSatNB. CubeSatNB s'est formé en partenariat avec l'UNB et l'UdeM (l'Université de Moncton) afin d'envoyer un mini satellite de taille 1U dans l'espace. Le satellite va prendre des données de la ionosphère terrestre. Pour plus de renseignements, prière de consulter la page d'information du projet CubeSatNB.
+
+Pour ce stage, j'étais demandé de participer dans le développement du logiciel embarqué pour le logiciel de communication de la mission dont il permettra au satellite de communiquer avec la station terrestre. Ayant peu de connaissances durant ce temps, j'étais quand même capable de m'introduire à la programmation en C ainsi que Git et le Système d'Opéeration Linux Ubuntu.
+
+
+
+CAG (Compétition Atlantique de Génie)
+La CAG est une compétition pour les étudiants d'ingénierie au Canada Atlantique accueilli cette année chez l'Université de Moncton. Cette année, malheureusement, la compétition fut animé virtuellement en raison des restrictions de santé imposés par la province.
+
+J'ai agis en tant que directeur de programmation pour la compétition. J'étais demandé d'inventer une question de programmation avec l'aide de l'entreprise Bell (commanditaire de la compétition) dont il serait résolu à l'aide des connaissances de génie et de programmation. Pour plus de renseignements, veuillez consulter le répertoire GitHub de la compétition de programmation.
+
+
+
+Conseil Étudiant de la Faculté d'Ingénierie
+Cette année, j'ai participé activement en tant que membre du conseil étudiant de la Faculté d'Ingénierie. Lors des rencontres, on discutait de la constitution, des activités para-scolaires ainsi que tout autre mise à jour des autres comitées.
+
+Aussi, au mois de mars, j'étais impliqué dans le comité de banquet dont j'ai aidé à planifier l'évènement et gérer le budget du banquet avec les professeurs et les autres membres de l'équipe.
+
+
+
+Cours d'arabe
+Maintenant, j'apprends l'arabe à travers des cours en ligne et en intéragissant avec mes collègues. Mon but est d'apprendre la langue afin de pouvoir me débrouiller au Maghreb ou dans les autres pays arabes sans l'aide d'un traducteur.
+

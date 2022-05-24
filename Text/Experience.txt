@@ -57,3 +57,7 @@ Dynamium
 To further my skills in embedded software development, I will be working alongside a faculty professor on his project called Dynamium. Dynamium is a formed from a team of professors looking to optimise a robotic arms' path using dynamic mechanical models. For this project, I will be working on developing low-level commands on the robot's arm.
 
 Dynamium's website
+
+
+Arabic courses
+As of now, I am learning arabic through online classes and through interacting with my friends. My goal is to learn the language enough so I would be able to travel through arabic countries without the need of a translator.
