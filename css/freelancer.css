@@ -400,6 +400,7 @@ section.success p{
   text-align: center;
   top: 50%;
   margin-top: -12px;
+  margin-left: 15px;
   color: white;
 }
 #portfolio-1 .portfolio-item .portfolio-link .caption .caption-content i {
