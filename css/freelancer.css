@@ -718,6 +718,15 @@ fieldset[disabled] .btn-success.active {
   font-size: 1.25em;
   color: #C8C3BC;
 }
+
+.portfolio-modal .container h1 {
+  color:#C8C3BC;
+  text-align: left;
+  padding-top: 25px;
+  margin: 0;
+  font-size: 3em;
+}
+
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
