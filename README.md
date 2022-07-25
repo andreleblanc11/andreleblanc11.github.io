@@ -1,2 +1,2 @@
 # Website
-Personnal website.
+Personal website.
