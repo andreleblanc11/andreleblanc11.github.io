@@ -212,6 +212,7 @@ section.success {
 }
 section.success h2{
   color:#C8C3BC;
+  padding-top: 100px;
 }
 section.success br{
   margin-top: 50px;
