@@ -532,10 +532,16 @@ section.books h2{
   color:#C8C3BC;
 }
 section.books .checked{
-    color: orange;
+  color: orange;
 }
 section.books .fa-star-o{
   color: orange;
+}
+section.books .books-list{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding: 0px 0px 30px 10px;
 }
 footer {
   color: white;
