@@ -269,7 +269,7 @@
     </section>
 
     <!-- Books Section -->
-    <section class="books" id="books" lang="en">
+    <section class="books" id="books">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -291,10 +291,10 @@
                        </select>
 	            </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="j-peterson-image">
                     <a href="https://www.amazon.ca/12-Rules-Life-Antidote-Chaos/dp/0345816021" target="_blank" rel="noopener noreferrer"><img src="img/books/12rulesoflife.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="j-peterson-desc">
                     <h3>12 rules of life by Jordan Peterson</h3>
                     <p><br>For this book, Jordan Peterson talks about the 12 rules of life that he finds most important and that apply to everyday life. His journey started off while answering a Quora question  where a user asked him what are his rules to life. This book is a summary of his 12 most important.
                     </p>
@@ -1406,28 +1406,11 @@
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     
-
     <!-- Language Switch JavaScript-->
-    <script>
-    $('[lang]').hide(); // hide all lang attributes on start.
-    $('[lang="en"]').show(); // show just English text initially
-    $('#lang-switch').change(function (event) { // put onchange event when user select option from select
-        var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
-        switch (lang) {
-            case 'en':
-                $('[lang]').hide();
-                $('[lang="en"]').show();
-            break;
-            case 'fr':
-                $('[lang]').hide();
-                $('[lang="fr"]').show();
-            break;
-            default:
-                $('[lang]').hide();
-                $('[lang="en"]').show();
-            }
-    });
-    </script>
+    <script src="js/language-switch.js"></script>
+
+    <!-- Books dropdown list Javascript-->
+    <script src="js/books-switch.js"></script>
 
 
 
