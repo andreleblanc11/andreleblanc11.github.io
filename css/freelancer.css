@@ -545,59 +545,19 @@ section.books .books-list{
 }
 #books-en div[id$="-image"] {
 	margin-left: 25%;
-}
-#books-en div[id^="j-peterson"] {
 	display: none;
 }
-#books-en div[id^="s-ammous"] {
-	display: none;
-}
-#books-en div[id^="j-kosinski"] {
-	display: none;
-}
-#books-en div[id^="d-savoie"] {
-	display: none;
-}
-#books-en div[id^="r-greene"] {
-	display: none;
-}
-#books-en div[id^="r-kiyosaki"] {
+#books-en div[id$="-desc"] {
 	display: none;
 }
 #books-en div[id^="d-chilton"] {
 	display: none;
 }
-#books-en div[id^="t-ferriss"] {
+#books-fr div[id$="-image"] {
+	margin-left: 25%;
 	display: none;
 }
-#books-en div[id^="g-newton"] {
-	display: none;
-}
-#books-fr div[id^="j-peterson"] {
-	display: none;
-}
-#books-fr div[id^="s-ammous"] {
-	display: none;
-}
-#books-fr div[id^="j-kosinski"] {
-	display: none;
-}
-#books-fr div[id^="d-savoie"] {
-	display: none;
-}
-#books-fr div[id^="r-greene"] {
-	display: none;
-}
-#books-fr div[id^="r-kiyosaki"] {
-	display: none;
-}
-#books-fr div[id^="d-chilton"] {
-	display: none;
-}
-#books-fr div[id^="t-ferriss"] {
-	display: none;
-}
-#books-fr div[id^="g-newton"] {
+#books-fr div[id$="-desc"] {
 	display: none;
 }
 footer {
