@@ -532,10 +532,33 @@ section.books h2{
   color:#C8C3BC;
 }
 section.books .checked{
-    color: orange;
+  color: orange;
 }
 section.books .fa-star-o{
   color: orange;
+}
+section.books .books-list{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding: 0px 0px 30px 10px;
+}
+#books-en div[id$="-image"] {
+	margin-left: 25%;
+	display: none;
+}
+#books-en div[id$="-desc"] {
+	display: none;
+}
+#books-en div[id^="d-chilton"] {
+	display: none;
+}
+#books-fr div[id$="-image"] {
+	margin-left: 25%;
+	display: none;
+}
+#books-fr div[id$="-desc"] {
+	display: none;
 }
 footer {
   color: white;
@@ -766,4 +789,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+.fa-fw {
+    padding-top: 12px;
 }

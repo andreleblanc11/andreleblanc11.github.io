@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE htmlfr
 <html>
 
 <head>
@@ -59,7 +59,7 @@
                         <a href="#portfolio">Experience/Projects</a>
                     </li>
                     <li class="page-scroll" lang="en">
-                        <a href="#books">Books</a>
+                        <a href="#books-en">Books</a>
                     </li>
                     <li class="page-scroll" lang="en">
                         <a href="mailto:andreleblanc725@yahoo.ca">Contact</a>
@@ -76,7 +76,7 @@
                         <a href="#portfolio-1">Expérience/Projets</a>
                     </li>
                     <li class="page-scroll" lang="fr">
-                        <a href="#books-1">Livres</a>
+                        <a href="#books-fr">Livres</a>
                     </li>
                     <li class="page-scroll" lang="fr">
                         <a href="mailto:andreleblanc725@yahoo.ca">Contactez</a>
@@ -269,18 +269,33 @@
     </section>
 
     <!-- Books Section -->
-    <section class="books" id="books" lang="en">
+    <section class="books" id="books-en" lang="en">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2> Latest Book Reviews</h2>
                     <hr class="star-light">
-                    <br>
+                    <br>	        
+		    <!-- Set up book drop down list-->
+                    <ul class="books-list"> 
+                       <select id="book-toggle-en">
+                           <option value="default"></option>
+                           <option value="j-peterson">12 Rules of Life</option>
+                           <option value="s-ammous">The Bitcoin Standard</option>
+                           <option value="j-kosinski">The Painted Bird</option>
+                           <option value="d-savoie">Democracy in Canada</option>
+                           <option value="r-greene">The 48 Laws of Power</option>
+                           <option value="r-kiyosaki">Rich Dad Poor Dad</option>
+                           <option value="d-chilton">The Wealthy Barber</option>
+                           <option value="t-ferriss">The 4 Hour Work Week</option>
+                           <option value="g-newton">The Intelligent Investor</option>
+                       </select>
+	            </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="j-peterson-en-image">
                     <a href="https://www.amazon.ca/12-Rules-Life-Antidote-Chaos/dp/0345816021" target="_blank" rel="noopener noreferrer"><img src="img/books/12rulesoflife.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="j-peterson-en-desc">
                     <h3>12 rules of life by Jordan Peterson</h3>
                     <p><br>For this book, Jordan Peterson talks about the 12 rules of life that he finds most important and that apply to everyday life. His journey started off while answering a Quora question  where a user asked him what are his rules to life. This book is a summary of his 12 most important.
                     </p>
@@ -293,10 +308,10 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-half-o checked"></span>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="s-ammous-en-image">
                     <a href="https://www.amazon.ca/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861" target="_blank" rel="noopener noreferrer"><img src="img/books/BitcoinStandard.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="s-ammous-en-desc">
                     <h3>The Bitcoin Standard by Saifedean Ammous</h3>
                     <p><br>The Bitcoin Standard is an excellent book on the history of money (gold money and fiat/government money) and how bitcoin is able to replace the currency of today. Prior to reading this book, I did not have much knowledge on the workings of money in the economy. It helped me learn this in an easy and convenient way while analyzing the history of money through human civilisation. After reading, I have a much bigger understanding and appreciation of money and Bitcoin/Digital Currency should be the desired currency in the near future.
                     </p>
@@ -310,12 +325,11 @@
                     <span class="fa fa-star checked"></span>
                 </div>
             </div>
-            <br><br><br><br>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="j-kosinski-en-image">
                     <a href="https://www.amazon.ca/Painted-Bird-Jerzy-Kosinski/dp/080213422X" target="_blank" rel="noopener noreferrer"><img src="img/books/PaintedBird.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="j-kosinski-en-desc">
                     <h3>The Painted Bird by Jerzy Kosiński</h3>
                     <p><br>As with his book, I listen to Jordan Peterson's podcast where he once mentionned that this book had the a big impact on his life. As I am interested by WW2 history, I was quite eager to start reading.
                     </p>
@@ -330,10 +344,10 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-o"></span>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="d-savoie-en-image">
                     <a href="https://www.amazon.ca/Democracy-Canada-Disintegration-Our-Institutions/dp/0773559027" target="_blank" rel="noopener noreferrer"><img src="img/books/DemocracyCanada.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="d-savoie-en-desc">
                     <h3>Democracy in Canada The Disintegration of Our Institutions by Donald Savoie</h3>
                     <p><br>I've read the reviews on Amazon.ca that this book would serve as an informative introductory to problems in canadian politics. With this book, I was looking to get some insight on what were the modern problems with canadian governement. 
                     </p>
@@ -349,12 +363,11 @@
                     <span class="fa fa-star-o"></span>
                 </div>
             </div>
-            <br><br><br><br>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="r-greene-en-image">
                     <a href="https://www.amazon.ca/48-Laws-Power-Robert-Greene/dp/0140280197" target="_blank" rel="noopener noreferrer"><img src="img/books/48LawsOfPower.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="r-greene-en-desc">
                     <h3>The 48 laws of power by Robert Greene</h3>
                     <p><br>Diving into this book, I wasn't sure what to expect. I had previously heard of the negative reviews concerning the motive behind its creation. What interested me the most was to learn how the games of power are played and how to recognize when you are being played or when you are intentionally playing the game. Being aware of it would help me create better bonds with my current and future relationships.
                     </p>
@@ -369,10 +382,10 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-half-o checked"></span>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="r-kiyosaki-en-image">
                     <a href="https://www.amazon.com/Rich-Dad-Poor-Anniversary-Middle/dp/B07QPQ8WBL/ref=sr_1_1?keywords=rich+dad+poor+dad&qid=1654616090&s=audible&sprefix=rich+%2Caudible%2C99&sr=1-1" target="_blank" rel="noopener noreferrer"><img src="img/books/RichDadPoorDad.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="r-kiyosaki-en-desc">
                     <h3>Rich Dad Poor Dad by Robert Kiyosaki</h3>
                     <p><br>This was an excellent read. Through Robert's stories and examples, he was able to convince me to start investing in assets and to build my wealth. Although I might not go as in depth as he did (stocks, bonds, mutual funds, real estate), he has made me realize that it is the only way to make money out of money (making money work for you as he puts it).
                     </p>
@@ -388,11 +401,10 @@
                     <span class="fa fa-star checked"></span>
                 </div>
             </div>
-            <br><br><br><br>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="d-chilton-en-image">
                     <a href="https://www.amazon.com/Wealthy-Barber-Returns-Dramatically-Perspectives/dp/0968394744" target="_blank" rel="noopener noreferrer"><img src="img/books/WealthyBarber.jpeg" class="img-responsive img-rounded" alt=""> </a>                </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id=d-chilton-en-desc">
                     <h3>The Wealthy Barber Returns by David Chilton</h3>
                     <p><br>Through his unique style of writing and through his sense of humour, David Chilton utilizes his book to give simple financial advice to his readers. He tries to explain, as simply as possible, his financial advice through his own life experiences and through simple mathematical calculations.
                     </p>
@@ -407,10 +419,10 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-o"></span>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="t-ferriss-en-image">
                     <a href="https://fourhourworkweek.com/" target="_blank" rel="noopener noreferrer"><img src="img/books/4HourWorkWeek.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="t-ferriss-en-desc">
                     <h3>The 4 Hour Work Week by Tim Ferriss</h3>
                     <p><br>Tim Ferriss has a very unique way of escaping the rat race (as coined by Robert Kiyosaki in Rich Dad Poor Dad). Developing your own net worth through entrepreneurship is the goal. However, the method chosen by Tim Ferriss is proven through his experience to be effective and low on time consumption.
                     </p>
@@ -427,10 +439,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="g-newton-en-image">
                     <a href="https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661" target="_blank" rel="noopener noreferrer"><img src="img/books/TheIntelligentInvestor.jpeg" class="img-responsive img-rounded" alt=""> </a>  
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="g-newton-en-desc">
                     <h3>The Intelligent Investor by Graham Newton</h3>
                     <p><br>A lot of hype revolves around this book given its praise by Warren Buffet and many others... The hype is real! The Intelligent Investor gives sound fundamental principles to investors to avoid speculative choices. Graham's basis is founded on years of experience in the financial world. He gives lots of examples (which are unfortunately outdated but saved by the revised footnotes and end of chapter commentaries).
                     </p>
@@ -442,20 +454,6 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://www.amazon.com/Big-Picture-Origins-Meaning-Universe/dp/1101984252" target="_blank" rel="noopener noreferrer"><img src="img/books/BigPicture.jpeg" class="img-responsive img-rounded" alt=""> </a>
-                </div>
-                <div class="col-lg-3 col-offset-1">
-                    <h3>The Big Picture by Sean Carroll</h3>
-                    <p><br>Coming soon! 
-                    </p>
-                    <br>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
                 </div>
             </div>
         </div>
@@ -484,7 +482,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; André LeBlanc 2022
+                        Copyright &copy; André LeBlanc 2023
                     </div>
                 </div>
             </div>
@@ -1156,18 +1154,33 @@
     </section>
 
     <!-- Books Section -->
-    <section class="books" id="books-1" lang="fr">
+    <section class="books" id="books-fr" lang="fr">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2> Revues de livres</h2>
                     <hr class="star-light">
+		    <!-- Set up book drop down list-->
+                    <ul class="books-list"> 
+                       <select id="book-toggle-fr">
+                           <option value="default"></option>
+                           <option value="j-peterson">12 Rules of Life</option>
+                           <option value="s-ammous">The Bitcoin Standard</option>
+                           <option value="j-kosinski">The Painted Bird</option>
+                           <option value="d-savoie">Democracy in Canada</option>
+                           <option value="r-greene">The 48 Laws of Power</option>
+                           <option value="r-kiyosaki">Rich Dad Poor Dad</option>
+                           <option value="d-chilton">The Wealthy Barber</option>
+                           <option value="t-ferriss">The 4 Hour Work Week</option>
+                           <option value="g-newton">The Intelligent Investor</option>
+                       </select>
+	            </ul>
                     <br>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="j-peterson-fr-image">
                     <a href="https://www.amazon.ca/12-Rules-Life-Antidote-Chaos/dp/0345816021" target="_blank" rel="noopener noreferrer"><img src="img/books/12rulesoflife.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="j-peterson-fr-desc">
                     <h3>12 rules of life par Jordan Peterson</h3>
                     <p><br>Pour ce livre, Jordan Peterson parle des douze règlements de la vie dont il trouve le plus important chez lui pour la vie quotidienne. Son parcours a commencé lorsqu'il répondait à une question sur le site Quora. Un utilisateur a demandé quelles sont ses règlements de la vie. Ce livre s'agis d'un résumé des douze plus importants.
                     </p>
@@ -1180,10 +1193,10 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-half-o checked"></span>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="s-ammous-fr-image">
                     <a href="https://www.amazon.ca/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861" target="_blank" rel="noopener noreferrer"><img src="img/books/BitcoinStandard.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="s-ammous-fr-desc">
                     <h3>The Bitcoin Standard par Saifedean Ammous</h3>
                     <p><br>The Bitcoin Standard est un excellent livre sur l'histoire de l'argent (l'argent en or et l'argent fiat/gouvernemental) et comment Bitcoin est capable de remplacer la forme monétaire d'aujourd'hui. Avant de lire ce livre, j'avais peu de connaissances dans l'argent et dans l'économie. Il m'a aidé à les apprendre d'une façon facile et convenable tout en analysant l'histoire de l'argent à travers de l'histoire de la civilisation humaine. Maintenant, j'ai une meilleure compréhension et une meilleure appréciation de l'argent et je crois que Bitcoin ou l'argent digital devrait être la forme d'argent choisi dans l'avenir.
                     </p>
@@ -1197,12 +1210,11 @@
                     <span class="fa fa-star checked"></span>
                 </div>
             </div>
-            <br><br><br><br>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="j-kosinski-fr-image">
                     <a href="https://www.amazon.ca/Painted-Bird-Jerzy-Kosinski/dp/080213422X" target="_blank" rel="noopener noreferrer"><img src="img/books/PaintedBird.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="j-kosinski-fr-desc">
                     <h3>The Painted Bird par Jerzy Kosiński</h3>
                     <p><br>As with his book, I listen to Jordan Peterson's podcast where he once mentionned that this book had the a big impact on his life. As I am interested by WW2 history, I was quite eager to start reading.
                     </p>
@@ -1217,10 +1229,10 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-o"></span>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="d-savoie-fr-image">
                     <a href="https://www.amazon.ca/Democracy-Canada-Disintegration-Our-Institutions/dp/0773559027" target="_blank" rel="noopener noreferrer"><img src="img/books/DemocracyCanada.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="d-savoie-fr-desc">
                     <h3>Democracy in Canada The Disintegration of Our Institutions par Donald Savoie</h3>
                     <p><br>J'ai lu dans les revues sur Amazon.ca que ce livre peut servir comme une introduction informative sur les problèmes dans les politiques canadiennes. Avec ce livre, je cherchais d'avoir un aperçu sur les problèmes modernes posées par le gouvernement Canadien.
                     </p>
@@ -1236,12 +1248,11 @@
                     <span class="fa fa-star-o"></span>
                 </div>
             </div>
-            <br><br><br><br>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="r-greene-fr-image">
                     <a href="https://www.amazon.ca/48-Laws-Power-Robert-Greene/dp/0140280197" target="_blank" rel="noopener noreferrer"><img src="img/books/48LawsOfPower.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="r-greene-fr-desc">
                     <h3>The 48 laws of power par Robert Greene</h3>
                     <p><br>En débutant cette lecture, je n'étais pas certain à quoi m'attendre. J'avais entendu précédemment plusieurs revues négatives sur les motifs qu'ont inspirés ce livre. Ce qui m'intéressait le plus de cette lecture était d'apprendre les règlements du jeu du pouvoir et de reconnaitre lorsque je me fais joué et lorsque je joue le jeu intentionellement. En m'y rendant conscient, je serai capable d'améliorer mes relations courantes et ultérieures.
                     </p>
@@ -1256,10 +1267,10 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-half-o checked"></span>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="r-kiyosaki-fr-image">
                     <a href="https://www.amazon.com/Rich-Dad-Poor-Anniversary-Middle/dp/B07QPQ8WBL/ref=sr_1_1?keywords=rich+dad+poor+dad&qid=1654616090&s=audible&sprefix=rich+%2Caudible%2C99&sr=1-1" target="_blank" rel="noopener noreferrer"><img src="img/books/RichDadPoorDad.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="r-kiyosaki-fr-desc">
                     <h3>Rich Dad Poor Dad par Robert Kiyosaki</h3>
                     <p><br>J'ai bien aimé ce livre. À travers des histoires et des exemples présentés par Robert, il était capable de me convaincre de commencer à investir dans des atouts afin de construire ma richesse. Malgré que je ne planifie pas d'investir aussitant que lui, Robert m'a fait réalisé que la seule façon d'être financièrement indépendant est par faire l'argent travailler pour toi. 
                     </p>
@@ -1275,12 +1286,11 @@
                     <span class="fa fa-star checked"></span>
                 </div>
             </div>
-            <br><br><br><br>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="d-chilton-fr-image">
                     <a href="https://www.amazon.com/Wealthy-Barber-Returns-Dramatically-Perspectives/dp/0968394744" target="_blank" rel="noopener noreferrer"><img src="img/books/WealthyBarber.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="d-chilton-fr-desc">
                     <h3>The Wealthy Barber Returns par David Chilton</h3>
                     <p><br>Avec un style d'écriture unique et son sens d'humour, David Chilton utilise ce livre afin de donner de l'avis financière à ces lecteurs. Il essai d'expliquer aussi simplement que possible son avis financière à travers ses expériences de vie et à partir d'équations mathématiques simples.
                     </p>
@@ -1295,10 +1305,10 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-o"></span>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="t-ferriss-fr-image">
                     <a href="https://fourhourworkweek.com/" target="_blank" rel="noopener noreferrer"><img src="img/books/4HourWorkWeek.jpeg" class="img-responsive img-rounded" alt=""> </a>
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="t-ferriss-fr-desc">
                     <h3>The 4 hour work week par Tim Ferriss</h3>
                     <p><br>Tim Ferriss propose une manière unique d'esquiver le "rat race". C'est en dévelopant sa valeur nette dans l'entrepreuneriat qu'il propose d'atteindre ce but. Cependant, la méthode dont il choisi prouve d'être effectif et libre sur le temps.
                     </p>
@@ -1315,10 +1325,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="g-newton-fr-image">
                     <a href="https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661" target="_blank" rel="noopener noreferrer"><img src="img/books/TheIntelligentInvestor.jpeg" class="img-responsive img-rounded" alt=""> </a>  
                 </div>
-                <div class="col-lg-3 col-offset-1">
+                <div class="col-lg-3 col-offset-1" id="g-newton-fr-desc">
                     <h3>The Intelligent Investor par Graham Newton</h3>
                     <p><br>Arrive bientôt ! 
                     </p>
@@ -1328,20 +1338,6 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://www.amazon.com/Big-Picture-Origins-Meaning-Universe/dp/1101984252" target="_blank" rel="noopener noreferrer"><img src="img/books/BigPicture.jpeg" class="img-responsive img-rounded" alt=""> </a>
-                </div>
-                <div class="col-lg-3 col-offset-1">
-                    <h3>The Big Picture par Sean Carroll</h3>
-                    <p><br>Arrive bientôt ! 
-                    </p>
-                    <br>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
                 </div>
             </div>
         </div>
@@ -1370,7 +1366,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; André LeBlanc 2022
+                        Copyright &copy; André LeBlanc 2023
                     </div>
                 </div>
             </div>
@@ -1392,30 +1388,12 @@
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     
-
     <!-- Language Switch JavaScript-->
-    <script>
-    $('[lang]').hide(); // hide all lang attributes on start.
-    $('[lang="en"]').show(); // show just English text initially
-    $('#lang-switch').change(function (event) { // put onchange event when user select option from select
-        var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
-        switch (lang) {
-            case 'en':
-                $('[lang]').hide();
-                $('[lang="en"]').show();
-            break;
-            case 'fr':
-                $('[lang]').hide();
-                $('[lang="fr"]').show();
-            break;
-            default:
-                $('[lang]').hide();
-                $('[lang="en"]').show();
-            }
-    });
-    </script>
+    <script src="js/language-switch.js"></script>
 
-
+    <!-- Books dropdown list Javascript-->
+    <script src="js/books-switch-en.js"></script>
+    <script src="js/books-switch-fr.js"></script>
 
 </body>
 </html>
