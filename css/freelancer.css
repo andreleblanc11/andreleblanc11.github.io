@@ -790,3 +790,6 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+.fa-fw {
+    padding-top: 12px;
+}
