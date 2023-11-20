@@ -275,8 +275,9 @@ section.success p{
 #portfolio .portfolio-item .portfolio-link span{
   font-size: 1.5em;
   position: absolute;
+  left: 110px;
+  white-space:pre;
   bottom: 100px;
-  left: 140px;
   color: white;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -386,7 +387,7 @@ section.success p{
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio-1 .portfolio-item .portfolio-link span{
+#portfolio-1 .portfolio-item .portfolio-link .caption .caption-content span{
   font-size: 1.5em;
   position: absolute;
   bottom: 100px;
