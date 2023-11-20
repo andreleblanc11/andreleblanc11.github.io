@@ -217,6 +217,9 @@ section.success h2{
 section.success br{
   margin-top: 50px;
 }
+.success.row {
+	width: 100%;
+}
 section.success p{
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2em;
